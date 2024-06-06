@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.login-container{
+    background-color: rgb(39, 35, 35);
+    width: 400px;
+    height: 400px;
+    /* margin-left: 500px; */
+    margin: auto;
+    margin-top: 100px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px 10px #18202b;
+}
+
+.login-container h1{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.login-container label{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.login-container input{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    color: rgb(35, 32, 32);
+}
+
+.login-container button{
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 370px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.login-container button:hover{
+    background-color: #eef2f8dc;
+    color:black;
+    box-shadow: 5px 5px 5px 5px rgb(51, 46, 60,0.5);
+}
+
+.login-footer-text{
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.login-footer-text:hover{
+    /* font-size: 16px; */
+    color: #526b8f;
+    cursor: pointer;
+}
